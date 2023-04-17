@@ -7,6 +7,8 @@ import Navbar from "./Navbar";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const brain = 'Noodle';
+  console.log(brain)
 
   return (
     <div>
